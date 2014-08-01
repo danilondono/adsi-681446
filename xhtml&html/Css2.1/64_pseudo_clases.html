@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pseudo selectores de clases CSS</title>
+	<style>
+	body{ font: 16px sans-serif;}
+		div#box{
+			width: 500px;
+			margin: 0px auto;
+			text-align: center;
+			border: 2px dotted #ddd;
+		}
+		ul.menu{
+			list-style: none;
+			margin: 0px auto;
+			width: 300px;
+			padding: 0px;
+		}
+		ul.menu li{
+			margin: 4px;
+		}
+		ul.menu li a:link,
+		ul.menu li a:visited{
+			background-color: #edb0f9;
+			border: 1px solid #000;
+			border-left: 24px solid #5d2273;
+			color: #361344;
+			font-size: 2em;
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			width: 100%;
+		}
+		ul.menu li a:hover,
+		ul.menu li a:active{
+			background-color: #5d2273;
+			border-left: 24px solid #fff;
+			color:#fff;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<h1>pseudo selectores de clases CSS</h1>
+		<ul class="menu">
+			<li><a href="">enlaces1</a></li>
+			<li><a href="">enlaces2</a></li>
+			<li><a href="">enlaces3</a></li>
+			<li><a href="">enlaces4</a></li>
+			<li><a href="">enlaces5</a></li>
+		</ul>
+	</div>
+</body>
+</html>

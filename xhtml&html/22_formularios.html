@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Elemento input - HTML</title>
+</head>
+<body>
+	<h1>Elemento input - HTML</h1>
+	<fieldset>
+		<legend>input type="text"</legend>
+		<label for="nombre">nombre</label>
+		<!--campo de texto sin valor inicial-->
+		<input type="text" name="nombre" id="nombre">
+		<br>
+		<label for="apellido">Apellido</label>
+		<!--campo de texto sin valor inicial-->
+		<input type="text" name="Apellido" id="Apellido" value="Springfield">
+		<br>
+		<label for="correo">Correo Electronico</label>
+		<!--campo de texto solo lectura-->
+		<input type="text" name="correo" id="correo" value="jeremias@misena.edu.co" readonly="reandoly">
+		<br>
+		<label for="direccion">direccion</label>
+		<!--campo de texto inactivo-->
+		<input type="text" name="direccion" id="direccion" disabled="disable">
+		<br>
+		<label for="telefono">telefono</label>
+		<!--campo de texto con una longitud maxima de 7 caracteres-->
+		<input type="text" name="telefono" id="telefono" maxlength="7">
+		<br>
+		<label for="documento">documento</label>
+		<!--campo de texto con un tamaño de 10 caracteres-->
+		<input type="text" name="documento" id="documento" size="10">
+		<br>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body{
+	background-color: #fff;
+	font: 16px/28px sans-serif;
+}
+div#marcoprincipal{
+	border: 1px solid red;
+	width: 960px;
+	margin: 4px auto;
+
+}

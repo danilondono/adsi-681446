@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tablas</title>
+	<style>
+	table{
+		text-align: center;
+		border-color: #BF0635;
+		margin: 15px auto;
+		font-family: cursive;
+		font-size: 30px;
+		width: 100%;
+		}
+		thead{
+			background: #A8FBB5;
+		}
+		tbody{
+			background: #A8A4FF;
+		}
+		tfoot{
+			background: #FC3F60;
+		}
+		thead:hover{
+			background: #79BBF0;
+		}
+		tbody:hover{
+			background: #79BBF0;
+		}
+		tfoot:hover{
+			background: #79BBF0;
+		}
+	</style>
+</head>
+<body>
+	<table border=1>
+		<thead>
+			<td colspan="3">THEADER</td>
+		</thead>
+		<tbody>
+		<tr>
+			<td rowspan="3">ROWSPAN</td>
+			<td colspan="2">TD</td>
+		</tr>
+		<tr>
+			<td>TD</td>
+			<td>TD</td>
+		</tr>
+		<tr>
+			<td colspan="2">TD</td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<td colspan="3">TFOOT</td>
+		</tfoot>
+	</table>
+</body>
+</html>

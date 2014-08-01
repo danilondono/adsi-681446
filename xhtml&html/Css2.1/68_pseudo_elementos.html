@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pseudo Selectores de Elemento</title>
+	<style>
+		body{ font: 16px sans-serif;}
+		ul.manga li::before{
+			content: "-> :) ->"; 
+		}
+		ul.peliculas li::after{
+			content: url(imgs/Movie3.png);
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Pseudo Selectores de Elemento</h1>
+	<h2>li::before</h2>
+	<ul class="manga">
+		<li>Dragon BaLL Z</li>
+		<li>Pockemon</li>
+		<li>Digimon</li>
+		<li>Super Campeones</li>
+		<li>Bey Blade</li>
+	</ul>
+	<h2>li::after</h2>
+	<ul class="peliculas">
+		<li>Malefica</li>
+		<li>X-men</li>
+		<li>Transformers 4</li>
+		<li>Spider-Man 4</li>
+	</ul>
+</body>
+</html>

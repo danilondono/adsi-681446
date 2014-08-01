@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ancho y Alto CSS</title>
+	<style>
+	div{
+		border: 1px solid red;
+		margin: 0 auto;
+	}
+	div#padre{
+		height: 600px;
+		width: 800px;
+	}
+	div#hijo{
+		height: 300px;
+		width: 400px;
+	}
+	div#nieto{
+		height: 200px;
+		width: 200px
+	}
+	</style>
+</head>
+<body>
+	<h1>Ancho y Alto CSS</h1>
+	<div id="padre">
+		<div id="hijo">
+			<div id="nieto"></div>
+		</div>
+	</div>
+</body>
+</html>

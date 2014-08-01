@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pseudo Selectores de elemento</title>
+	<style>
+		body {font: 16px sans-serif;}
+		p.primera_letra::first-letter{
+			color:#f00;
+			font-size: 4em;
+		}
+		p.primera_linea::first-line{
+			color:#0f0;
+			font-size: 2em;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Pseudo Selectores de elemento</h1>
+	<h2>p::first-letter</h2>
+		<p class="primera_letra">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates, repellat et sequi ducimus hic consectetur at expedita minus numquam atque ipsam possimus inventore culpa sapiente aspernatur repudiandae cum itaque.
+		</p>
+	<h2>p::first-letter</h2>
+		<p class="primera_linea">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates, repellat et sequi ducimus hic consectetur at expedita minus numquam atque ipsam possimus inventore culpa sapiente aspernatur repudiandae cum itaque.
+		</p>
+</body>
+</html>

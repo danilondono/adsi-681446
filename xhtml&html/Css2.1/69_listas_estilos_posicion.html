@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Listas - Estilos - Posicion CSS</title>
+	<style>
+		body{font: 16px sans-serif;}
+		div.listas_desordenadas,
+		div.listas_ordenadas{
+			border: 4px solid #ccc;
+			margin: 0px auto;
+			width: 800px;
+		}
+		ul, ol{
+			display: inline-block;
+			margin-right: 20px;
+			width: 200px;
+		}
+		ul.discos,
+		ul.cuadros,
+		ul.circulos {
+			list-style-position: inside;
+		}
+		ul.discos{ list-style-type: disc;}
+		ul.cuadros{ list-style-type: square;}
+		ul.circulos{ list-style-type: circle;}
+		ol.roman{ list-style-type: lower-roman;}
+		ol.greek{ list-style-type: lower-greek;}
+		ol.alpha{ list-style-type: lower-alpha;}
+	</style>
+</head>
+<body>
+	<h1>Listas - Estilos - Posicion CSS</h1>
+	<h2>Listas Desordenadas</h2>
+	<div class="listas_desordenadas">
+		<ul class="discos">
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+			<li>Elemento4</li>
+			<li>Elemento5</li>
+
+		</ul>
+		<ul class="cuadros">
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+			<li>Elemento4</li>
+			<li>Elemento5</li>
+
+		</ul>
+		<ul class="circulos">
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+			<li>Elemento4</li>
+			<li>Elemento5</li>
+
+		</ul>
+	</div>
+	<h2>Listas ordenadas</h2>
+	<div class="listas_ordenadas">
+		<ol class="roman">
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+			<li>Elemento4</li>
+			<li>Elemento5</li>
+
+		</ol>
+		<ol class="greek">
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+			<li>Elemento4</li>
+			<li>Elemento5</li>
+
+		</ol>
+		<ol class="alpha">
+			<li>Elemento1</li>
+			<li>Elemento2</li>
+			<li>Elemento3</li>
+			<li>Elemento4</li>
+			<li>Elemento5</li>
+
+		</ol>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+	background-color: #aaa;
+	font:20px tahoma;
+}
+div#marco{
+	background-color: #fff;
+	border:2px solid #999;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+}
+
+div.animacion{
+	background:-webkit-linear-gradient(left,#F83816, #62B0FF);
+	background:-moz-linear-gradient(left,#F83816, #62B0FF);
+	background:linear-gradient(left,#F83816, #62B0FF);
+
+	border: 2px solid #11388f;
+	color: #fff;
+	font-size: 3em;
+
+	border:2px solid #11388f;
+	-webkit-border-radius: 50%;
+		-ms-border-radius:50%;
+		 	border-radius:50%;
+
+	-webkit-box-shadow: -4px 4px 10px #000;
+		-ms-box-shadow: -4px 4px 10px #000;
+		 	box-shadow: -4px 4px 10px #000;
+
+	-webkit-text-shadow:-4px 4px 10px #000;
+	   	text-shadow:-4px 4px 10px #000;
+			text-shadow:-4px 4px 10px #000;
+
+	margin: 40px auto;
+	height: 400px;
+	width: 400px;
+}
+
+div.animacion:hover{
+	-webkit-animation:animarADSI 2s;
+		-moz-animation:animarADSI 2s;
+			animation:animarADSI 2s;
+}
+
+@-webkit-keyframes animarADSI{
+	0%  {-webkit-transform: rotate(0deg);}
+	100%{-webkit-transform:rotate(360deg);}
+}
+
+@-ms-animation-keyframes animarADSI{
+	0%  {-ms-transform: rotate(0deg);}
+	100%{-ms-transform: rotate(360deg);}
+}
+
+@keyframes animarADSI{
+	0%  {transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
